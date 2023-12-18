@@ -24,7 +24,7 @@ Python>=3.7, PyTorch>=1.11, numpy, scipy, math, random, skimage, argparse
 We use CAVE dataset () to train DCNN.
 
 ```bash
-python train.py --train_path $TRAIN_DIR$ --test_path $TEST_DIR$\
+python train.py --train_path $TRAIN_DIR$ --test_path $TEST_DIR$ \
 --scale $SCALE$ --save_name $SAVE_MODEL_NAME$
 ```
 
