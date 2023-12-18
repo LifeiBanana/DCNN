@@ -31,7 +31,7 @@ python train.py --train_path $TRAIN_DIR$ --test_path $TEST_DIR$ \
 - TRAIN_DIR: path to the training set
 - TEST_DIR: path to the testing set
 - SCALE: super resolution scale, such as 2, 4 and 8
-- SAVE_DIR: file name for saving the model
+- SAVE_MODEL_NAME: file name for saving the model
 
 
 For example, you can use the following command to train the DCNN model for 2x SR.
