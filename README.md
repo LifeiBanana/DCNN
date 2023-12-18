@@ -1,5 +1,5 @@
-# DCNN
-Pytorch implementation for "Closed-loop Matters: Dual Regression Networks for Single Image Super-Resolution".
+# Diffused Convolutional Neural Network for Hyperspectral Image Super-Resolution [[arXiv]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10057005)
+Pytorch implementation for "Diffused Convolutional Neural Network for Hyperspectral Image Super-Resolution".
 <p align="center">
 <img src="imgs/frame.png" alt="Dual Regression Scheme" width="90%" align=center />
 </p>
@@ -63,3 +63,16 @@ python test.py --scale 2\
 --test_path ./CAVE/test
 ```
 
+
+## Citation
+
+If you use any part of this code in your research, please cite our paper:
+
+```
+@inproceedings{guo2020closed,
+  title={Closed-loop Matters: Dual Regression Networks for Single Image Super-Resolution},
+  author={Guo, Yong and Chen, Jian and Wang, Jingdong and Chen, Qi and Cao, Jiezhang and Deng, Zeshuai and Xu, Yanwu and Tan, Mingkui},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year={2020}
+}
+```
