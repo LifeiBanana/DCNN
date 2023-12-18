@@ -34,12 +34,15 @@ python train.py --train_path $TRAIN_DIR$ --test_path $TEST_DIR$\
 - SAVE_DIR: file name for saving the model
 
 
-For example, you can use the following command to train the DRN-S model for 4x SR.
-
+For example, you can use the following command to train the DCNN model for 2x SR.
 ```bash
+python train.py --train_path ./CAVE/train --test_path ./CAVE/test
+--scale 2 --save_name cave_x2_dcnn
+```
 
 ## Testing Method
 You can use the following script to obtain the testing results:
+
 ```bash
 python test.py --scale $SCALE$ \
 --model_name $TEST_MODEL_PATH$ \
