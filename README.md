@@ -24,7 +24,7 @@ Python>=3.7, PyTorch>=1.11, numpy, scipy, math, random, skimage, argparse
 We use CAVE dataset () to train DCNN.
 
 ```bash
-python main.py --train_path $TRAIN_DIR$ --test_path $TEST_DIR$\
+python train.py --train_path $TRAIN_DIR$ --test_path $TEST_DIR$\
 --scale $SCALE$ --save_name $SAVE_MODEL_NAME$
 ```
 
@@ -37,6 +37,26 @@ python main.py --train_path $TRAIN_DIR$ --test_path $TEST_DIR$\
 For example, you can use the following command to train the DRN-S model for 4x SR.
 
 ```bash
-python main.py --data_dir ./CAVE/train --test_path ./CAVE/test\
---scale 2 --save_name cave_x2_dcnn
+
+## Testing Method
+You can use the following script to obtain the testing results:
+```bash
+python test.py --scale $SCALE$ \
+--model_name $TEST_MODEL_PATH$ \
+--test_path $TEST_DATASET_PATH$ 
 ```
+
+- SCALE: test the scale of the image
+- TEST_MODEL_PATH: The path where the test model is storeds
+- TEST_DATASET_PATH: The path where the test data set is stored
+
+
+
+For example, you can use the following command to test our DCNN for 2x SR.
+
+```bash
+python test.py --scale 2\
+--model_name Cave_model_2_epoch_200.pth \
+--test_path ./CAVE/test
+```
+
