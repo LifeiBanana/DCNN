@@ -29,7 +29,7 @@ python main.py --train_path $TRAIN_DIR$ --test_path $TEST_DIR$\
 ```
 
 - TRAIN_DIR: path to the training set
-- test_path: path to the testing set
+- TEST_DIR: path to the testing set
 - SCALE: super resolution scale, such as 2, 4 and 8
 - SAVE_DIR: file name for saving the model
 
