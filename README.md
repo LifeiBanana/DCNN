@@ -69,10 +69,13 @@ python test.py --scale 2\
 If you use any part of this code in your research, please cite our paper:
 
 ```
-@inproceedings{guo2020closed,
-  title={Closed-loop Matters: Dual Regression Networks for Single Image Super-Resolution},
-  author={Guo, Yong and Chen, Jian and Wang, Jingdong and Chen, Qi and Cao, Jiezhang and Deng, Zeshuai and Xu, Yanwu and Tan, Mingkui},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-  year={2020}
+@article{jia2023diffused,
+  title={Diffused convolutional neural network for hyperspectral image super-resolution},
+  author={Jia, Sen and Zhu, Shuangzhao and Wang, Zhihao and Xu, Meng and Wang, Weixi and Guo, Yujuan},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={61},
+  pages={1--15},
+  year={2023},
+  publisher={IEEE}
 }
 ```
