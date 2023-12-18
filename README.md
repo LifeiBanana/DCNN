@@ -36,7 +36,7 @@ python train.py --train_path $TRAIN_DIR$ --test_path $TEST_DIR$ \
 
 For example, you can use the following command to train the DCNN model for 2x SR.
 ```bash
-python train.py --train_path ./CAVE/train --test_path ./CAVE/test
+python train.py --train_path ./CAVE/train --test_path ./CAVE/val
 --scale 2 --save_name cave_x2_dcnn
 ```
 
