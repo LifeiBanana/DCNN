@@ -58,7 +58,7 @@ python test.py --scale $SCALE$ \
 For example, you can use the following command to test our DCNN for 2x SR.
 
 ```bash
-python test.py --scale 2\
+python test.py --scale 2 \
 --model_name Cave_model_2_epoch_200.pth \
 --test_path ./CAVE/test
 ```
